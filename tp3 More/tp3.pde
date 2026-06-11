@@ -39,7 +39,7 @@ void draw() {
 
 // funcion con parametro que no retorna valor
 void dibujar(int inicioX) {
-  tamanoCuadrado = 400.0f / columnas; 
+  tamanoCuadrado = 400 / columnas; 
   
   // Ciclo for anidado
   for (int fila = 0; fila < filas; fila++) {
